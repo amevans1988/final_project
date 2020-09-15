@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>RedGamers</title>
+        <meta name="description" content="Mock E-Commerce Website">
+        <meta name="author" content="Arthur Evans">
+
+        <link href='styles/normalize.css' rel='stylesheet'>
+        <link href='styles/shared.css' rel='stylesheet'>
+        <link href='styles/main.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class='header-div'></div>
+
+        <div class='main'>
+
+            <div class='main-logo'>
+                <img src='images/rv-main.png'>
+            </div>
+
+            <section class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <a href='productdetails.html'><img src='images/desktops/desk_product4/pic1.jpg'></a>
+                    <div class="text">CLX SET Gaming Desktop</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href='productdetails.html'><img src='images/laptops/laptop_prod4/pic1.jpg'></a>
+                    <div class="text">GIGABYTE AERO 15</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href='productdetails.html'><img src='images/headsets/headset_prod4/pic1.jpg'></a>
+                    <div class="text">CORSAIR VIRTUOSO RGB WIRELESS High-Fidelity</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href='productdetails.html'><img src='images/mice/mouse_prod4/pic1.jpg'></a>
+                    <div class="text">G-Wolves Hati HT-M 3360 Ultra Lightweight</div>
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </section>
+            <!-- End of slideshow-container -->
+
+            <section class='main__products'>
+                <h2>Products</h2>
+                <div class='categories'>
+                    <a href='#'>Desktops</a>
+                    <p><a href='productdetails.html'><img src='images/desktops/desk_product3/pic1.jpg'></a></p>
+                </div>
+
+                <div class='categories'>
+                    <a href='#'>Laptops</a>
+                    <p><a href='productdetails.html'><img src='images/laptops/laptop_prod3/pic1.jpg'></a></p>
+                </div>
+
+                <div class='categories'>
+                    <a href='#'>Headsets</a>
+                    <p><a href='productdetails.html'><img src='images/headsets/headset_prod3/pic1.jpg'></a></p>
+                </div>
+
+                <div class='categories'>
+                    <a href='#'>Mice</a>
+                    <p><a href='productdetails.html'><img src='images/mice/mouse_prod3/pic1.jpg'></a></p>
+                </div>
+            </section>
+            <!-- End of main__products section -->
+
+
+            <section class='main__aboutus'>
+                <h2>About Us</h2>
+                <div class='aboutus'>
+                    <img src='images/gamerpic.jpg'>
+                    <p><span class='redtext'>Red</span>Gamers was developed by Arthur Evans because he thinks he used to be good at video games. He also tried to develop this site using gohtml and had to pull a GitHub backup because he broke everything. If Tyler was not one of the most patient people on the planet, he would have probably cried myself to sleep every single night, not just the majority of them.</p>
+                </div>
+            </section>
+            <!-- End of main__aboutus section -->
+
+
+            <section class='main__testimonials'>
+                <h2>Our Customers</h2>
+                <p>Don't just take our word for it. Hear what our valued customers have to say...</p>
+                <div class="customers">
+                    <img class='customers__img' src='images/customers/tyler.jpg'>
+                    <div class='review'>
+                        <q>Artie stop sending me Slack messages on the weekend.</q>
+                        <p class='custName'>Tyler Mullens</p>
+                        <p class='title redtext'>Associate Engineer</p>
+                    </div>
+                </div>
+                <div class="customers reverse">
+                    <img class='customers__img' src='images/customers/val.jpg'>
+                    <div class='review-reverse'>
+                        <q>Please remove me from your e-mail list.</q>
+                        <p class='custName'>Valeria Secker</p>
+                        <p class='title redtext'>Program Manager People Development</p>
+                    </div>
+                </div>
+                <div class="customers">
+                    <img class='customers__img' src='images/customers/mark.jpg'>
+                    <div class='review'>
+                        <q>This image is being used without my consent.</q>
+                        <p class='custName'>Mark Kroh</p>
+                        <p class='title redtext'>Senior Engineer</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End of main__testimonials section -->
+
+            <div class='footer-div'></div>
+
+        </div>
+        <!-- End of main -->
+
+    </body>
+    <script src='scripts/main.js'></script>
+    <script src='scripts/shared.js'></script>
+</html>
+
